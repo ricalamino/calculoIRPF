@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Cálculo IRPF 2018</title>
+  <script src="scripts.js"></script>
+
+</head>
+
+<body>
+
+  <h1>FEITO POR RICARDO ALAMINO - 20/09/2018</h1>
+
+    <p>Rendimento</p>
+    <input type="number" name="" id="rendimento">
+
+    <p>Dependentes</p>
+    <input type="number" name="" id="dependentes">
+    
+    <p>Despesas com instrução</p>
+    <input type="number" name="" id="deducao_escola">
+
+    <p>Outras deduções</p>
+    <input type="number" name="" id="outras_deducoes">
+
+    <br /><br /><br /><br />
+    <button onclick="calcular(document.getElementById('rendimento').value,document.getElementById('dependentes').value,document.getElementById('deducao_escola').value,document.getElementById('outras_deducoes').value)">Clique para calcular os valores abaixo</button>
+    <br /><br /><br /><br />
+
+    Total de Deduções:
+    <div id="total_deducoes"></div>
+
+    <br /><br />
+
+    
+    Base de Cálculo:
+    <div id="base_calculo"></div>
+
+    <br /><br />
+
+    Imposto Devido:
+    <div id="imposto_devido"></div>
+    <br /><br />
+
+    Limite Máximo (6%):
+    <div id="limite_maximo"></div>
+
+    <br /><br />
+   
+
+
+    
+
+
+  
+
+
+
+</body>
+
+
+
+</html>
