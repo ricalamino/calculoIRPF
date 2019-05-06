@@ -1,4 +1,6 @@
 
+// Reference: http://www26.receita.fazenda.gov.br/irpfsimulaliq/private/pages/simuladoraliquota.jsf
+
 const faixas = Array();
 const aliquotas = Array();
 
